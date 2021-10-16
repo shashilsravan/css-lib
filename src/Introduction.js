@@ -50,14 +50,14 @@ export default function Introduction() {
                     {/* <CodeContainer codeString={codeString1} /> */}
                 </div>
             </div>
-            <div className="card w-100 m-y-6">
+            {/* <div className="card w-100 m-y-6">
                 <div className="card-header">
                     Starter Template
                 </div>
                 <div className="card-body">
                     <CodeContainer codeString={codeString1} />
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
