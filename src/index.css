@@ -1,0 +1,211 @@
+:root {
+  --jumbo-blue: #0d6efd;
+  --jumbo-indigo: #6610f2;
+  --jumbo-purple: #6f42c1;
+  --jumbo-pink: #d63384;
+  --jumbo-red: #dc3545;
+  --jumbo-orange: #fd7e14;
+  --jumbo-yellow: #ffc107;
+  --jumbo-green: #198754;
+  --jumbo-teal: #20c997;
+  --jumbo-cyan: #0dcaf0;
+  --jumbo-white: #fff;
+  --jumbo-gray: #6c757d;
+  --jumbo-gray-dark: #343a40;
+  --jumbo-primary: #0d6efd;
+  --jumbo-secondary: #6c757d;
+  --jumbo-success: #198754;
+  --jumbo-info: #0dcaf0;
+  --jumbo-warning: #ffc107;
+  --jumbo-danger: #dc3545;
+  --jumbo-light: #f8f9fa;
+  --jumbo-dark: #212529;
+  --jumbo-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+  --jumbo-primary-color: #7f0799;
+  --jumbo-secondary-color: #2b9eb3;
+  --jumbo-tertiary-color: #dbd5b5;
+  --jumbo-danger-color: #f8333c;
+  --jumbo-warning-color: #fcab10;
+  --jumbo-success-color: #44af69;
+  --jumbo-dark-color: #292e1e;
+  --jumbo-white-color: #fef;
+}
+.header {
+  z-index: 10;
+}
+.header-primary {
+  background: var(--jumbo-primary-color);
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.body-container {
+  padding-top: 40px;
+}
+/* Accordion styles */
+.tabs {
+  border-radius: 8px;
+  overflow: hidden;
+}
+.tab {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+}
+.tab-label {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+}
+.tab-label::after {
+  content: "\276F";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
+}
+.tab-content {
+  max-height: 0;
+  padding: 0;
+  color: #2c3e50;
+  background: white;
+  transition: all 0.35s;
+}
+.tab-close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  font-size: 0.75em;
+  cursor: pointer;
+}
+input:checked + .tab-label::after {
+  transform: rotate(90deg);
+}
+input:checked ~ .tab-content {
+  max-height: 100vh;
+}
+h3.heading {
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+  font-style: italic;
+}
+h3.heading:before,
+h3.heading:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+h3.heading:before {
+  margin-right: 10px;
+}
+h3.heading:after {
+  margin-left: 10px;
+}
+.code-container {
+  padding: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.code-container pre code {
+  font-size: 16px;
+}
+.code-container button {
+  border: 1px solid var(--jumbo-primary-color);
+  padding: 4px 10px;
+  border-radius: 4px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.code-container button:hover {
+  background: var(--jumbo-primary-color);
+  color: white;
+}
+.code-container button.clicked {
+  background: var(--jumbo-primary-color);
+  color: white;
+}
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+.sidebar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.brick {
+  width: 240px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 550;
+}
+@media screen and (min-width: 801px) {
+  .sidebar {
+    position: fixed;
+    top: 50px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background: #fff;
+    padding-right: 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.15);
+  }
+  .sidebar-button {
+    display: none;
+  }
+  .main-container {
+    display: flex;
+    width: 100%;
+  }
+  .main-container .sidebar {
+    overflow-y: scroll;
+    width: 300px;
+    height: 100vh;
+  }
+  .main-container .body-container {
+    width: 100%;
+    padding-left: 360px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .sidebar-button {
+    display: contents;
+  }
+  .sidebar-button i {
+    margin-right: 20px;
+    font-size: 24px !important;
+  }
+  .sidebar.open {
+    overflow-y: scroll;
+    position: fixed;
+    z-index: 9;
+    height: 100vh;
+    width: 260px;
+    background: white;
+    padding-top: 40px;
+    padding-right: 20px;
+    box-shadow: 4px 0 8px rgba(0, 0, 0, 0.1);
+  }
+  .sidebar.close {
+    position: fixed;
+    display: none;
+    height: 100vh;
+    width: 0px;
+  }
+}
+.brick2 {
+  height: 400px;
+}
