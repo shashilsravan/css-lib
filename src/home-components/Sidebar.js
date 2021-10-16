@@ -14,11 +14,6 @@ export default function Sidebar({sidebar}) {
                             Introduction
                         </a>
                     </li>
-                    <li>
-                        <a className='link' href="/about">
-                            About
-                        </a>
-                    </li>
                 </ul>
             </Accordion>
             <Accordion title='Content' index='1'>

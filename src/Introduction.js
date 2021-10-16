@@ -7,7 +7,7 @@ export default function Introduction() {
     const codeString1 = ''
     const saveFile = () => {
         saveAs(
-        "https://raw.githubusercontent.com/shashilsravan/jumboCSS/main/src/minified.css",
+        "https://raw.githubusercontent.com/shashilsravan/css-lib/main/src/minified.css",
         "jumbocss-minify.css"
         );
     };
@@ -50,14 +50,6 @@ export default function Introduction() {
                     {/* <CodeContainer codeString={codeString1} /> */}
                 </div>
             </div>
-            {/* <div className="card w-100 m-y-6">
-                <div className="card-header">
-                    Starter Template
-                </div>
-                <div className="card-body">
-                    <CodeContainer codeString={codeString1} />
-                </div>
-            </div> */}
         </div>
     )
 }
