@@ -1,70 +1,141 @@
-# Getting Started with Create React App
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <h1 align="center">Jumbo CSS</h1>
 
-## Available Scripts
+  <p align="center">
+    JumboCSS is a css framework, with initial version consisting all the css goodies needed for web developers.
+    This website is entirely made using JumboCSS.
+    JumboCSS lets you to design your website and to build websites easier and faster using our already built designs.
+    . Scroll down to know more about JumboCSS
+    <br />
+    <a href="https://github.com/shashilsravan/css-lib"><strong>Explore the project »</strong></a>
+    <br />
+    <br />
+    <a href="https://jumbocss.herokuapp.com/">View Demo</a>
+    ·
+    <a href="https://github.com/shashilsravan/css-lib/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/shashilsravan/css-lib/issues">Request Feature</a>
+  </p>
+</p>
 
-In the project directory, you can run:
 
-### `yarn start`
+## First look at the Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[![Product Name Screen Shot][screenshot1]](https://github.com/shashilsravan/css-lib)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+This is how the homepage of the jumbocss looks like. A more detailed info of the routes and UX can be seen in *Detailed Info* Section
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The application is built with the following libraries/frameworks that you built your project using.
+* [ReactJS](https://reactjs.org/)
+* And own css
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<hr />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `yarn eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+You need npm installed on your device to make sure the project is working.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+  
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Pages (Desktop view)
+* [![Screenshot2][screenshot2]](https://github.com/shashilsravan/css-lib)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<hr />
 
-## Learn More
+* [![Screenshot3][screenshot3]](https://github.com/shashilsravan/css-lib)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<hr />
 
-### Code Splitting
+* [![Screenshot4][screenshot4]](https://github.com/shashilsravan/css-lib)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<hr />
 
-### Analyzing the Bundle Size
+* [![Screenshot5][screenshot5]](https://github.com/shashilsravan/css-lib)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<hr />
 
-### Making a Progressive Web App
+* [![Screenshot6][screenshot6]](https://github.com/shashilsravan/css-lib)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<hr />
 
-### Advanced Configuration
+* [![Screenshot7][screenshot7]](https://github.com/shashilsravan/css-lib)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<hr />
 
-### Deployment
+## Pages (Mobile view)
+* [![Screenshot11][screenshot11]](https://github.com/shashilsravan/css-lib)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<hr />
 
-### `yarn build` fails to minify
+* [![Screenshot12][screenshot12]](https://github.com/shashilsravan/css-lib)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<hr />
+
+* [![Screenshot13][screenshot13]](https://github.com/shashilsravan/css-lib)
+
+<hr />
+
+* [![Screenshot14][screenshot14]](https://github.com/shashilsravan/css-lib)
+
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Your Name - [@me](https://twitter.com/shashilSravan45) - shashilsravan.ss.ss@gmail.com
+
+Project Link: [https://github.com/shashilsravan/css-lib](https://github.com/shashilsravan/css-lib)
+
+
+
+[contributors-shield]: https://img.shields.io/github/contributors/shashilsravan/css-lib.svg?style=for-the-badge
+[contributors-url]: https://github.com/shashilsravan/css-lib/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/shashilsravan/css-lib.svg?style=for-the-badge
+[forks-url]: https://github.com/shashilsravan/css-lib/network/members
+[stars-shield]: https://img.shields.io/github/stars/shashilsravan/css-lib.svg?style=for-the-badge
+[stars-url]: https://github.com/shashilsravan/css-lib/stargazers
+[issues-shield]: https://img.shields.io/github/issues/shashilsravan/css-lib.svg?style=for-the-badge
+[issues-url]: https://github.com/shashilsravan/css-lib/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/shashilsravan/css-lib
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/shashil-sravan-a5b201191/
+[screenshot1]: images/screenshot1.png
+[screenshot2]: images/screenshot2.png
+[screenshot3]: images/screenshot3.png
+[screenshot4]: images/screenshot4.png
+[screenshot5]: images/screenshot5.png
+[screenshot6]: images/screenshot6.png
+[screenshot7]: images/screenshot7.png
+[screenshot11]: images/screenshot11.png
+[screenshot12]: images/screenshot12.png
+[screenshot13]: images/screenshot13.png
+[screenshot14]: images/screenshot14.png
